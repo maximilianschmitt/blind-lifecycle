@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "browserify main.js -o bundle.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "dependencies": {
+    "alt": "^0.17.8",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1"
+  }
+}
